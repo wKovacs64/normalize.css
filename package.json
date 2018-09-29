@@ -1,0 +1,38 @@
+{
+  "name": "@wkovacs64/normalize.css",
+  "version": "8.0.0",
+  "description": "normalize.css with some additions",
+  "keywords": [],
+  "author": {
+    "name": "Justin Hall",
+    "email": "justin.r.hall@gmail.com"
+  },
+  "license": "MIT",
+  "main": "normalize.css",
+  "style": "normalize.css",
+  "scripts": {
+    "format": "prettier --write \"**/*.{css,js,json,md,yml}\""
+  },
+  "lint-staged": {
+    "*.{css,js,json,md,yml}": [
+      "prettier --write",
+      "git add"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com:wKovacs64/normalize.css.git"
+  },
+  "bugs": {
+    "url": "https://github.com/wKovacs64/normalize.css/issues"
+  },
+  "homepage": "https://github.com/wKovacs64/normalize.css",
+  "dependencies": {
+    "normalize.css": "8.0.0"
+  },
+  "devDependencies": {
+    "husky": "1.0.1",
+    "lint-staged": "7.3.0",
+    "prettier": "1.14.3"
+  }
+}

@@ -1,0 +1,12 @@
+.vscode/
+.editorconfig
+.gitattributes
+.gitignore
+.npmignore
+.prettierignore
+.prettierrc
+.travis.yml
+husky.config.js
+renovate.json
+yarn-error.log
+yarn.lock
