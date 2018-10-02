@@ -8,5 +8,6 @@
 .travis.yml
 husky.config.js
 renovate.json
+stylelint.config.js
 yarn-error.log
 yarn.lock

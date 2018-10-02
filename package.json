@@ -11,11 +11,18 @@
   "main": "normalize.css",
   "style": "normalize.css",
   "scripts": {
-    "format": "prettier --write \"**/*.{css,js,json,md,yml}\""
+    "format": "prettier --write \"**/*.{css,js,json,md,yml}\"",
+    "lint": "stylelint normalize.css",
+    "test": "npm run -s lint"
   },
   "lint-staged": {
-    "*.{css,js,json,md,yml}": [
+    "*.{js,json,md,yml}": [
       "prettier --write",
+      "git add"
+    ],
+    "*.css": [
+      "prettier --write",
+      "stylelint",
       "git add"
     ]
   },
@@ -33,6 +40,8 @@
   "devDependencies": {
     "husky": "1.1.0",
     "lint-staged": "7.3.0",
-    "prettier": "1.14.3"
+    "prettier": "1.14.3",
+    "stylelint": "9.6.0",
+    "stylelint-config-standard": "18.2.0"
   }
 }
