@@ -10,6 +10,9 @@
   "license": "MIT",
   "main": "normalize.css",
   "style": "normalize.css",
+  "files": [
+    "normalize.css"
+  ],
   "scripts": {
     "format": "prettier --write \"**/*.{css,js,json,md,yml}\"",
     "lint": "stylelint normalize.css",
