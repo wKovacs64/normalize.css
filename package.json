@@ -15,17 +15,6 @@
     "lint": "stylelint normalize.css",
     "test": "npm run -s lint"
   },
-  "lint-staged": {
-    "*.{js,json,md,yml}": [
-      "prettier --write",
-      "git add"
-    ],
-    "*.css": [
-      "prettier --write",
-      "stylelint",
-      "git add"
-    ]
-  },
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com:wKovacs64/normalize.css.git"
