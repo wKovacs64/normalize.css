@@ -19,3 +19,4 @@ jobs:
           paths:
             - ~/.cache
       - run: yarn lint
+      - run: yarn semantic-release
