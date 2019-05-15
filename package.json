@@ -45,7 +45,7 @@
     "commitizen": "3.1.1",
     "cz-conventional-changelog": "2.1.0",
     "husky": "2.3.0",
-    "lint-staged": "8.1.6",
+    "lint-staged": "8.1.7",
     "prettier": "1.17.1",
     "semantic-release": "15.13.12",
     "stylelint": "10.0.1",
