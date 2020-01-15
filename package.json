@@ -40,7 +40,7 @@
     "normalize.css": "8.0.1"
   },
   "devDependencies": {
-    "@commitlint/cli": "8.3.4",
+    "@commitlint/cli": "8.3.5",
     "@commitlint/config-conventional": "8.3.4",
     "commitizen": "4.0.3",
     "cz-conventional-changelog": "3.0.2",
