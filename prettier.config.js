@@ -3,4 +3,12 @@ const prettierConfig = require('@wkovacs64/prettier-config');
 
 module.exports = {
   ...prettierConfig,
+  overrides: [
+    {
+      files: ['**/*.css'],
+      options: {
+        singleQuote: false,
+      },
+    },
+  ],
 };
