@@ -51,7 +51,7 @@
     "lint-staged": "11.2.5",
     "prettier": "2.4.1",
     "semantic-release": "18.0.0",
-    "stylelint": "14.0.0",
+    "stylelint": "14.0.1",
     "stylelint-config-standard": "23.0.0"
   }
 }
