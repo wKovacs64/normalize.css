@@ -15,7 +15,7 @@
   ],
   "scripts": {
     "cm": "git-cz",
-    "format": "prettier --write .",
+    "format": "prettier --cache --write .",
     "lint": "stylelint normalize.css",
     "husky:install": "husky install",
     "test": "npm run -s lint",
