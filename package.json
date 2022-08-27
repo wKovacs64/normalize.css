@@ -40,8 +40,8 @@
     "normalize.css": "8.0.1"
   },
   "devDependencies": {
-    "@commitlint/cli": "17.0.3",
-    "@commitlint/config-conventional": "17.0.3",
+    "@commitlint/cli": "17.1.1",
+    "@commitlint/config-conventional": "17.1.0",
     "@wkovacs64/prettier-config": "3.0.2",
     "commitizen": "4.2.5",
     "cz-conventional-changelog": "3.3.0",
